@@ -1,0 +1,87 @@
+#include<bits/stdc++.h>
+using namespace std;
+cout<<"welcome to IQ app";
+cout<<"1 in student manner login";
+cout<<"2 in instructor manner login";
+class sighup
+{
+	cin>>mobno;
+	cin>>gmail;
+	cin>>gmailpassword;
+	cout<<"generating otp to that person:";
+	
+}
+class student
+{
+	int mobnum,age,sslc,hsc,alternative_mob_num;
+	char gmail,alternative_mail_id,clg,address,certification_course;
+	cin>>mobnum;
+	cin>>gmail;
+	cin>>age;
+	cin>>clg;
+	cin>>sslc;
+	cin>>hsc;
+	cin>>address;
+	cin>>alternative_mail_id;
+	cin>>alternative_mob_num;
+	cin>>certification_course;
+	cout<<"add picture";
+	cout<<"please check and click ok to further procced";
+}
+class instructor
+{
+	int mobnumber,alternative_mob_num;
+	char education_qualifications,mail,alternative_mail_id,address;
+	cin>>mobnumber;
+	cin>>mail;
+	cin>>education_qualifications;
+	cin>>alternative_mob_num;
+	cin>>alternative_mail_id;
+	cin>>address;
+	cout<"add picture";
+	cout<<"please chechk once again and click ok to procced further:";
+	
+}
+
+enter:
+	int choice,sub1,sub2,sub3;
+	if(choice==1)
+	{
+		cin>>sub1;
+		cin>>sub2;
+		cin>>sub3;
+	}
+	else(choice==2)
+	{
+		cout<<"java"<<" ";
+		cout<<"c"<<" ";
+		cout<<"sql"<<" ";
+		cout<<"rdbms"<<" ";
+	}
+	cout<<"please enter crt information:";
+	go to enter;
+	
+	int dif;
+	if(dif==0)
+	{
+		cout<<"easy"<<" ";
+	}
+	else if (diff==1)
+	{
+		cout<<"medium"<<" ";
+	}
+	else (diff==2)
+	{
+		cout<<"hard level"<<" ";
+	}
+	
+  int main()
+  {
+  	signup ob=new signup
+  	ob.signup();
+  	student obj=new student
+  	obj.student();
+  	instructor obj1=new instructor
+  	obj1.instructor();
+  	return 0;
+  }
